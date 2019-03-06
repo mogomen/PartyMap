@@ -11,10 +11,6 @@ import QuartzCore
 
 class ContainerViewController: UIViewController {
 
-    var nc = NavigationViewController()
-    var nav = UINavigationController()
-    
-    
     enum SlideOutState {
         case bothCollapsed
         case leftPanelExpanded

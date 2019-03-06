@@ -19,18 +19,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         let containerViewController = ContainerViewController()
         
-       // window?.rootViewController = UINavigationController(rootViewController: containerViewController)
+        window?.rootViewController = UINavigationController(rootViewController: containerViewController)
        
-        var c = UINavigationController()
-        var x = window?.rootViewController
+      //  var c = UINavigationController()
+      //  var x = window?.rootViewController
        
         
-        var l = UINavigationController(rootViewController: containerViewController)
+      //  var l = UINavigationController(rootViewController: containerViewController)
         
-        func v() {
-            l.isNavigationBarHidden = true
-        }
-        window?.rootViewController = l
+     //   func v() {
+     //      l.isNavigationBarHidden = true
+     //   }
+        //window?.rootViewController = l
        // (rootViewController: containerViewController)
        
     
